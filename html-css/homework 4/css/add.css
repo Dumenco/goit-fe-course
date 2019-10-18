@@ -11,16 +11,20 @@ html{
 }
 
 
+
 .container {
     width: 1110px;
     margin: 0 auto;
+    
      
 }
 
-.header{
-    padding-top: 40px;
+header {
+    padding-top: 25px;
     padding-bottom: 100px;
-}
+   
+
+    }
 
 .clearfix::after{
     content: '';
@@ -42,6 +46,8 @@ html{
     text-align: left;
     font-weight: 300;
     text-transform: uppercase;
+    margin: 0;
+
 }
 .logo-name::first-letter{
     color:  #1abc9c;
@@ -62,6 +68,8 @@ a{
 .nav-header{
     list-style: none;
     float: right;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -84,7 +92,10 @@ a{
     margin-right: 30px;
 }
 
-
+.header{
+    padding-top: 40px;
+    padding-bottom: 100px;
+    }
 .featured-products{
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
@@ -93,7 +104,7 @@ a{
     font-weight: 900;
     text-transform: uppercase;
     margin: 0 0 116px;
-    position: relative;
+   /* position: relative;*/
 }
 
 .featured-products::after{
@@ -108,13 +119,14 @@ a{
 .products-list{
     list-style: none;
     padding-inline-start: 0px;
+    margin: 0;
     }
 
 
 .product-card{
     width: 255px;
     float: left;
-    font-size: 0;
+    /*font-size: 0;*/
 }
 
 .product-card:not(:nth-child(4n)){
@@ -128,7 +140,7 @@ a{
 
 
 .product-link{
-    display: inline-block;
+    display: block;
 }
 
 .product-link:hover .name-item,
@@ -148,6 +160,7 @@ a{
     padding-top: 12px;
     padding-left: 14px;
     display: inline-block;
+    margin: 0;
 }
 .product-link:hover .price-item,
 .product-link:focus{
@@ -165,6 +178,7 @@ a{
     text-transform: uppercase;
     padding: 12px 15px 12px 10px;
     display: inline-block;
+    margin: 0;
 }
 
 .price{
@@ -213,13 +227,13 @@ a{
     margin-bottom: 14px;
 }
 .art-name{
-    font-family: 'Open Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: rgba(85, 82, 82, 255);
     text-align: left;
     font-weight: 600;
     line-height: 150%;
-    margin-bottom: 30px;
+    margin: 0px;
 }
 
 .art-name::after{
@@ -237,7 +251,7 @@ a{
     color: #555252;
     text-align: left;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin: 0px;
     line-height: 200%;
 }
 
@@ -249,12 +263,18 @@ a{
     font-weight: 300;
     width: 160px;
     height: 50px;
-    background-color: #4ec6ab;
-    text-align: center;
+   background-color: #4ec6ab;
     border-style: none;
     cursor: pointer;
-    margin-bottom: 45px;
+    padding-bottom: 20px;
+    padding-top: 17px;
 }
+
+.read-more:hover {
+    background-color: #1abc9c;
+}
+
+
 .section {
     display: block;
     width: 1150px;
@@ -269,5 +289,6 @@ a{
     display: block;
     width: 1150px;
     margin: 0 auto;
+    padding-bottom: 45px;
 
 }
