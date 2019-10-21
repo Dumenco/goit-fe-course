@@ -279,6 +279,15 @@ img {
     padding: 10px;
     font-weight: 700;
 }
+.overlay-button-like{
+    background-image: url(../img/like.png);
+}
+.overlay-button-compare{
+    background-image: url(../img/compare.png);
+}
+.overlay-button-later{
+    background-image: url(../img/later.png);
+}
 footer {
     background: #323232;
     text-align: center;
@@ -295,12 +304,3 @@ footer p {
     margin: 0;
 }
 
-.overlay-button-like{
-    background-image: url(../img/like.png);
-}
-.overlay-button-compare{
-    background-image: url(../img/compare.png);
-}
-.overlay-button-later{
-    background-image: url(../img/later.png);
-}
