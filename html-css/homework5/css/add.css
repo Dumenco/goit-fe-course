@@ -1,5 +1,15 @@
+html{
+    box-sizing:border-box;
+    }
+    
+    *,
+    *::before,
+    *::after{
+    box-sizing: inherit;
+    } 
+
 .navigation {
-    width: 1124px;
+    /*width: 1124px;*/
     margin: 0 auto;
     padding: 32px 6px;
     box-sizing: border-box;
@@ -21,14 +31,21 @@
     font-weight: 900;
     color: #1abc9c;
 }
+.nav-menu{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
 .nav-menu li {
     float: right;
+    list-style:none;
  }
 
 .nav-item {
     width: 100px;
     text-align: center;
-    display: inline-block;
+    /*  display: inline-block;*/
 }
 
 .nav-item:last-child {
@@ -79,7 +96,7 @@ main {
 .container {
     width: 1110px;
     margin: 0 auto;
-    padding: 6px 6px 96px;
+    padding: 6px 2px 96px;
     /*box-sizing: border-box;*/
 }
 .clearfix::after {
