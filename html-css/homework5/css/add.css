@@ -38,7 +38,7 @@ html{
 }
 
 .nav-menu li {
-    float: right;
+    float: left;
     list-style:none;
  }
 
@@ -96,8 +96,8 @@ main {
 .container {
     width: 1110px;
     margin: 0 auto;
-    padding: 6px 2px 96px;
-    /*box-sizing: border-box;*/
+   /* padding: 6px 2px 96px;
+    box-sizing: border-box;*/
 }
 .clearfix::after {
     content: "";
@@ -130,7 +130,7 @@ main {
     transform: translateX(-50%);
 }
 
-h2 {
+.one-title {
     font-family: 'Roboto', sans-serif;
     width: 790px;
     font-weight: 900;
