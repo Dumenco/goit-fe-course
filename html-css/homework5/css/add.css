@@ -43,7 +43,7 @@ html{
  }
 
 .nav-item {
-    width: 100px;
+    /*width: 100px;*/
     text-align: center;
     /*  display: inline-block;*/
 }
@@ -64,6 +64,9 @@ html{
 }
 .nav-link:hover, .nav-link:focus {
     color: #1abc9c;
+}
+.products{
+padding-bottom: 110px;
 }
 
 .section-sliders {
@@ -113,6 +116,7 @@ main {
     right: 6px;
 }
 .products-card{
+    margin: 0;
     list-style: none;
     padding-inline-start: 0px;
 }
@@ -166,7 +170,7 @@ h3 {
     color: #515151;
     position: relative;
     letter-spacing: -0.02em;
-    margin-top: 110px;
+   /* margin-top: 110px;*/
 }
 .collection::after {
     display: block;
