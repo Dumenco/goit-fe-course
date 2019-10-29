@@ -79,9 +79,19 @@ nav{
     padding: 0 5px;
     cursor: pointer;
 }
+
+
+
+/*
 .nav-item:hover .nav-link{
     color: rgb(254, 209, 54);
 }
+*/
+.nav-link:hover{
+    color: rgb(254, 209, 54);
+}
+
+
 .nav-link {
 
     display: block;
