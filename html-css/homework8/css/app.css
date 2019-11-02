@@ -122,6 +122,12 @@
     text-align: center;
    
 }
+.main-button:hover{
+    color:  purple;
+    background-color: yellow;
+    border-color: purple;
+
+}
 .holiday {
     padding: 70px 0 60px;
 }
@@ -134,13 +140,13 @@
     margin: 0 0 18px;
 }
 .card {
-    width: 220px;
+    width: 200px;
     margin-bottom: 30px;
 }
 .card:last-child {
     margin-bottom: 0;
 }
-.card-item {
+.card-list {
     margin-bottom: 26px;
     display: flex;
     flex-direction: column;
@@ -155,6 +161,7 @@
     margin: 0 auto 16px;
     position: relative;
 }
+/*
 .one {
     background-image: url(../img/one.png);
 }
@@ -167,6 +174,7 @@
 .four {
     background-image: url(../img/four.png);
 }
+*/
 .photo::after {
     content: '';
     width: 32px;
@@ -205,6 +213,7 @@
 .paragraph {
     margin: 0;
     text-align: center;
+    color: #666666;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
@@ -226,7 +235,7 @@
         margin-bottom: 0;
         min-height: 260px;
     }
-    .card-item {
+    .card-list {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -276,11 +285,11 @@
         margin-bottom: 30px;
     }
 }
-@media (min-width: 1040px) {
+@media (min-width: 960px) {
     .container {
-        width: 1040px;
+        width: 940px;
     }
-    .card-item {
+    .card-list {
         width: 100%;
     }
 }
