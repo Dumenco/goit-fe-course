@@ -1,4 +1,4 @@
-
+/* montserrat-700 - latin */
 @font-face {
     font-family: 'Montserrat';
     font-weight: 700;
@@ -11,7 +11,7 @@
     src: url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/montserrat-v12-latin-regular.woff') format('woff'); /* Modern Browsers */
   }
-
+  /* roboto-300 - latin */
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -20,7 +20,7 @@
          url('../fonts/roboto-v18-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/roboto-v18-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-
+  /* roboto-regular - latin */
   @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -36,14 +36,14 @@
     background-size: cover;
     padding-bottom: 136px;
 }
+
 .container {
     width: 320px;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0 15px;
 }
-
-.menu-item {
+.menu_item {
     width: 90px;
     padding: 8px;
     text-align: center;
@@ -59,15 +59,14 @@
 .nav {
     margin: 0 auto;
     text-align: center;
-}
+   }
 .menu {
     padding: 20px 0;
 }
-.menu-item:hover {
+.menu_item:hover {
     border: 2px #ffffff solid;
     border-radius: 20px;
 }
-
 .blok {
     width: 294px;
     margin: 0 auto;
@@ -82,7 +81,12 @@
     padding: 96px 0 28px 0;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-  
+  }
+
+.logo:hover {
+    color: #ffffff;
+    text-decoration: none;
+
 }
 
 .title {
@@ -94,9 +98,8 @@
     letter-spacing: -0.07em;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-  
 }
-.sub-title {
+.sub_title {
     color: #ffffff;
     text-align: center;
     margin: 0 auto 16px;
@@ -105,7 +108,7 @@
     font-weight: 300;
     width: 230px;
 }
-.main-button {
+.main_button {
     display: block;
     margin: 0 auto;
     color: #ffffff;
@@ -120,18 +123,16 @@
     border: none;
     padding: 12px;
     text-align: center;
-   
 }
-.main-button:hover{
+.main_button:hover{
     color:  purple;
     background-color: yellow;
     border-color: purple;
-
 }
 .holiday {
     padding: 70px 0 60px;
 }
-.section-title {
+.section_title {
     color: #333333;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -139,16 +140,17 @@
     text-align: center;
     margin: 0 0 18px;
 }
-
-
 .card {
     width: 200px;
     margin-bottom: 30px;
+    border: 0px solid;
 }
+
+
 .card:last-child {
     margin-bottom: 0;
 }
-.card-list {
+.card_list {
     margin-bottom: 26px;
     display: flex;
     flex-direction: column;
@@ -163,20 +165,6 @@
     margin: 0 auto 16px;
     position: relative;
 }
-/*
-.one {
-    background-image: url(../img/one.png);
-}
-.two {
-    background-image: url(../img/two.png);
-}
-.three {
-    background-image: url(../img/three.png);
-}
-.four {
-    background-image: url(../img/four.png);
-}
-*/
 .photo::after {
     content: '';
     width: 32px;
@@ -212,15 +200,16 @@
     text-align: center;
     margin: 0 0 16px;
 }
-.paragraph {
+.description {
     margin: 0;
     text-align: center;
     color: #666666;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
+    line-height: 1.2;
 }
-.button-link {
+.button_link {
     color: #ff4e50;
     border: 2px solid #ff4e50;
     background: #ffffff;
@@ -230,19 +219,16 @@
         width: 768px;
         padding: 40px 50px;
     }
-    .sub-title {
+    .sub_title {
         width: 100%;
     }
     .card {
         margin-bottom: 0;
         min-height: 260px;
+        border: 0px solid;
     }
     .card-list {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 0 auto 10px;
-        width: 476px;
+        margin-bottom: 10px;
     }
     .blok {
         width: 492px;
@@ -250,10 +236,10 @@
     header {
         padding-bottom: 230px;
     }
-    .main-button {
+    .main_button {
         width: 226px;
     }
-    .button-link {
+    .button_line {
         width: 192px;
     }
     .nav {
@@ -266,6 +252,7 @@
     .logo, .menu {
         padding: 0;
         margin: 0;
+        text-align: center;
     }
     .holiday {
         padding-top: 70px;
@@ -276,14 +263,14 @@
         margin: 0 auto 26px;
         letter-spacing: -0.03em;
     }
-    .sub-title {
+    .sub_title {
         font-size: 24px;
         margin-bottom: 40px;
     }
     .order {
         order: -1;
     }
-    .section-title {
+    .section_title {
         margin-bottom: 30px;
     }
 }
