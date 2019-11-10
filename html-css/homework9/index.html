@@ -1,95 +1,74 @@
-  
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>homework9</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/normalize.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>homework9</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/app.css">
 </head>
-
 <body>
-    <header>
+	<div class="container-fluide bg_top">
+		<div class="container wrap">
+			<div class="row justify-content-center">
+				
+		<header class="d-md-flex flex-md-row-reverse justify-content-md-between col-8 col-md-12 col-xl-12">
+			 <nav>
+				<ul class="d-flex justify-content-between">
+					<li><button type="button" class="menu_item">Log In</button></li>
+					<li><button type="button" class="menu_item">Sign Up</button></li>
+				</ul>
+			 </nav>
+		   <div class="logo col col-md-6"><a href="#">UrlaubsglÜck</a></div>
+		</header>
+			</div>
+			
+			<div class="row content_top justify-content-center">
+				<section>
+					<h2 class="col-12 col-md-10 col-xl-8">Share your holiday dreams</h2>
+					<span class="col-10">And find the perfect partner to fullfill it</span>
+					<button class="main_button col-10 col-xl-3">Find your holiday partner</button>
+				</section> 
+			</div>
+		</div>
+	</div>
 
-<!--контейнер 1-->
-<div class="container">
-    <!--строка1-->
-    <nav class="nav">
-    <!--столбик1-->
-            <div class="menu">
-                <button type="button" class="menu_item">Log In</button>
-                <button type="button" class="menu_item">Sign Up</button>
-            </div>
-    <!--столбик2--> 
-            <div class="logotipe">
-                <a href="#" class="logo">URLAUBSGLÜCK</a>
-            </div>
-        </nav>
-<!--строка2 и столбик1-->
-        <div class="blok">
-            <h1 class="title">Share your holiday dreams</h1>
-            <p class="sub_title">And find the perfect partner to fullfill it</p>
-            <button class="main_button" type="button">Find your holiday partner</button>
-        </div>
-    </div>
-    </header>
+<div class="container-fluide">
+	<div class="container wrap">
+		<div class="row partners justify-content-center">
+			<h2>Meet a partner for your best holiday</h2>
+			<ul class="partners_item d-flex	flex-wrap justify-content-center dalign-items-md-start flex-md-wrap justify-content-md-center flex-xl-row flex-xl-nowrap">
+				<li href="#" class="col-md-6 order-md-1 col-xl-3">
+					<img src="./img/one.png" alt="">
+		 			<h3>Bradley Hunter</h3>
+					<p>Based in Chicago. I love playing tennis and loud music.</p>
+				 </li>
+				 
+	 			<li href="#" class="col-md-6 order-md-3 col-xl-3">
+	 				<img src="./img/two.png" alt="">
+				 	<h3>Lucas Marsha</h3>
+				 	<p>I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+				 </li>
+				 
+				<li href="#" class="col-md-6 order-md-2 col-xl-3">
+					<img src="./img/three.png" alt="">
+					<h3>Heather Walker</h3>
+					<p>I'm a happy person that loves cats and climbing on mountains.</p>
+				</li>
 
+				<li href="#" class="col-md-6 order-md-4 col-xl-3">
+					<img src="./img/four.png" alt="">
+					<h3>Bradley Hunter</h3>
+					<p>Based in Chicago. I love playing tennis and loud music.</p>
+				</li>
+			</ul>
+			<button class="col-10 col-md-4 col-xl-3">See other partners</button>
+		</div>
+	</div>
+</div>	
 
- <section class="holiday">
-<!--контейнер 2-->
-    <div class="container">
-        
-<!--строка1 и столбик1-->
-            <h2 class="section_title">Meet a partner for your best holiday</h2>
-
-<!--строка2-->
-             <div class="card-list row d-flex flex-wrap justify-content-center">
-    <!--столбик1-->              
-                <div class="card col-md-6 col-lg-3 order">
-                    <div class="photo one">
-                        <img src="./img/one.png" alt="foto one" class="one">
-                    </div>
-
-                        <h3 class="name">Bradley Hunter</h3>
-                        <p class="paragraph">Based in Chicago. I love playing tennis and loud music.</p>
-                </div>
-
-    <!--столбик2--> 
-            <div class="card col-md-6 col-lg-3">
-                <div class="photo two">
-                        <img src="./img/two.png" alt="foto two" class="two">
-                </div>
-                <h3 class="name">Lucas Marsha</h3>
-                <p class="paragraph">I get my inspiration from nature and objects around me. I have a passion to
-                    colours,
-                    typography and skateboards.
-                </p>
-            </div>
-    <!--столбик3--> 
-            <div class="card col-md-6 col-lg-3 order">
-                <div class="photo three"> 
-                    <img src="./img/three.png" alt="foto three" class="three">
-                </div>
-                <h3 class="name">Heather Walker</h3>
-                <p class="paragraph">I'm a happy person that loves cats and climbing on mountains.
-                </p>
-            </div>
-    <!--столбик4--> 
-            <div class="card col-md-6 col-lg-3">
-                <div class="photo four">
-                        <img src="./img/four.png" alt="foto four" class="four">
-                    </div>
-                        <h3 class="name">Bradley Hunter</h3>
-                        <p class="paragraph">Based in Chicago. I love playing tennis and loud music.</p>
-                </div>
-            </div>
-<!--строка3 и столбик1-->            
-            <button class="main_button button_link" type="button">See other partners</button>
-    </div>
-</section>
 </body>
 </html>
