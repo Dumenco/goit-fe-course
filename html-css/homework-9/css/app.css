@@ -100,7 +100,7 @@ nav {
 }
 
 .content_top button {
-	height: 40px;
+	height: 36px;
 	border: none;
 	font-size: 14px;
 	line-height: 17px;
@@ -109,17 +109,22 @@ nav {
 	background-color: #ff4e50;
 	border-radius: 30px;
 	margin-bottom: 130px;
+	width: 250px;
 }
+
 .content_top button:hover{
     color:  purple;
     background-color: yellow;
     border-color: purple;
 }
-.partners {
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
 
+.partners {
+    padding-top: 60px;
+	margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+"
+}
 .partners h2 {
 	display: inline-block;
 	text-align: center;
@@ -128,12 +133,16 @@ nav {
 	color: #333;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 20px;
+	font-weight: 700;
+	padding-top: 60px;
 }
-
 
 .partners_item {
 	margin-bottom: 35px;
 	text-align: center;
+	margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 .partners_item li {
@@ -141,6 +150,9 @@ nav {
 	margin-bottom: 30px;
 	width: 236px;
 	position: relative;
+	margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 .partners_item h3 {
@@ -148,6 +160,7 @@ nav {
 	line-height: 17px;
 	color: #333;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 }
 
 .partners_item p {
@@ -200,6 +213,7 @@ nav {
 	background-color: transparent;
 	color: #ff4e50;
 	margin: 0 auto;
+
 }
 .partners button:hover{
     color:  purple;
@@ -254,7 +268,7 @@ nav ul {
 }
 
 .partners {
-	padding-top: 70px;
+	/*padding-top: 70px;*/
 	padding-bottom: 40px;
 }
 
@@ -311,15 +325,16 @@ nav ul {
 }
 
 .partners {
-	padding-top: 70px;
+	/*padding-top: 70px;*/
 	padding-bottom: 70px;
 }
 
 .partners h2 {
 	margin-bottom: 40px;
 }
-
+/*
 .partners_item {
 	margin-bottom: 40px;
+}*/
 }
-}
+
