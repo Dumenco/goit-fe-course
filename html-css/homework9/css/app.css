@@ -40,7 +40,7 @@ body {
 }
 
 .wrap{
-	width: 320px;
+	/*width: 320px;*/
 	margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ body {
 	background-position: center;
 }
 
-header {
+nav {
 	padding-top: 20px;
 	margin-bottom: 30px;
 	font-family: 'Montserrat', sans-serif;
@@ -219,7 +219,7 @@ header {
 }
 
 
-header {
+nav {
 	padding: 0 50px;
 	margin-bottom: 0px;
 }
@@ -283,7 +283,7 @@ nav ul {
 }
 
 
-header {
+nav {
 	margin: 0 auto;
 	margin-bottom: 160px;
 }
